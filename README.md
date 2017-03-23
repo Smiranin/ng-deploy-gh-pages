@@ -1,15 +1,14 @@
-# ng-deploy
+# ng-deploy-gh-pages
 
-## What is ng-deploy?
+## What is ng-deploy-gh-pages?
 
  **This packege run automatic deploy of your ng-cli project on git repository in gh-pages branch**
 
 ## How to use
 
-- npm install ng-deploy
-- add script in your package.json ```sh "deploy": "./node_modules/.bin/deploy" ```
+- npm install ng-deploy-gh-pages --save-dev
+- add script in your package.json ```"deploy": "./node_modules/.bin/deploy" ```
 - npm run deploy
-
 
 ## How does it work?
 

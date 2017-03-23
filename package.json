@@ -1,6 +1,6 @@
 {
-  "name": "ng-deploy",
-  "version": "0.0.1",
+  "name": "ng-deploy-gh-pages",
+  "version": "0.0.5",
   "description": "deploy ng-cli project to gh-pages",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,14 @@
       "deploy": "./bin/deploy.js"
   },
   "author": "Studytube trainee-tream",
-  "contributors": [],
+  "contributors": [
+    {"name": "Smiranin",
+    "url": "https://github.com/Smiranin"},
+    {"name": "KashaevaD",
+    "url": "https://github.com/KashaevaD"},
+    {"name": "Painter19081989",
+    "url": "https://github.com/Painter19081989"}
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Smiranin/ng-deploy/issues"
