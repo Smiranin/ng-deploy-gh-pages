@@ -1,0 +1,30 @@
+{
+  "name": "ng-deploy",
+  "version": "0.0.1",
+  "description": "deploy ng-cli project to gh-pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smiranin/ng-deploy.git"
+  },
+    "files": [
+    "index.js",
+    "bin"
+  ],
+    "bin": {
+      "deploy": "./bin/deploy.js"
+  },
+  "author": "Studytube trainee-tream",
+  "contributors": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smiranin/ng-deploy/issues"
+  },
+  "homepage": "https://github.com/Smiranin/ng-deploy#readme",
+  "dependencies": {
+    "shelljs": "^0.7.7"
+  }
+}
