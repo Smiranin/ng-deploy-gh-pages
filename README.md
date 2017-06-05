@@ -3,7 +3,7 @@
 ## What is ng-deploy-gh-pages?
 
  **This packege run automatic deploy of your ng-cli project on git repository in gh-pages branch**
- **You must run the command "npm run deploy" being in the master branch. And it's all.**
+ **You must run the command "npm run deploy" being in the master branch. It's all.**
 
 ## How to use
 
