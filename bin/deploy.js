@@ -53,9 +53,8 @@ if (shell.exec('git fetch upstream').code !== 0) {
   shell.echo('Error: Git repos add remote');
 }
 
-if (shell.exec('git checkout gh-pages').code !== 0) {
-    shell.exec('git push upstream --delete gh-pages');
-}
+shell.exec('git push upstream --delete gh-pages');
+
 
 if (shell.exec('git add -A .').code !== 0) {
   shell.echo('Error: Git add failed');

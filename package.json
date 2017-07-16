@@ -1,6 +1,6 @@
 {
   "name": "ng-deploy-gh-pages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "deploy ng-cli project to gh-pages",
   "main": "index.js",
   "scripts": {
