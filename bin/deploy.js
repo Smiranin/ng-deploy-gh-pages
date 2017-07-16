@@ -28,7 +28,7 @@ if (shell.exec('ng build --prod --bh ' + base).code !== 0) {
 }
 
 if(!repos){
-  shell.echo('Remote url not faund');
+  shell.echo('Remote url not found');
   shell.exit(1);
 }
 
@@ -44,18 +44,17 @@ if (shell.exec('cp ./index.html ./404.html').code !== 0) {
 if (shell.exec('git init').code !== 0) {
   shell.echo('Error: git init failed');
 }
+
 if (shell.exec('git remote add upstream "' + repos + '"').code !== 0) {
   shell.echo('Error: Git repos add remote failed');
-
 }
 
 if (shell.exec('git fetch upstream').code !== 0) {
   shell.echo('Error: Git repos add remote');
 }
 
-if (shell.exec('git reset upstream/gh-pages').code !== 0) {
-  shell.echo('Error: reset failed');
-}
+shell.exec('git push upstream --delete gh-pages');
+
 
 if (shell.exec('git add -A .').code !== 0) {
   shell.echo('Error: Git add failed');
